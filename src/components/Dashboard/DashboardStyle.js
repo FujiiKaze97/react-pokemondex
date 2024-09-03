@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const DashBoardTItle = styled.h2`
-  color: blue;
+  color: orange;
   font-size: 64px;
   margin-bottom: 20px;
 `;

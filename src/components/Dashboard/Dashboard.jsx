@@ -12,7 +12,7 @@ const Dashboard = () => {
   const { selectedPokemon } = usePokemon();
   return (
     <DashboardConatiner className="dashboard-container">
-      <DashBoardTItle className="dashboard-title">나만의 포켓몬</DashBoardTItle>
+      <DashBoardTItle className="dashboard-title">This is Pokemon dex </DashBoardTItle>
 
       <DashBoardItemBox className="dashboard-item-box">
         {selectedPokemon.map((element, index) => {
@@ -27,7 +27,7 @@ const Dashboard = () => {
             <DashBoardItem className="dashboard-item" key={index}>
               <DashBoardImg
                 className="dashboard-pokemon-ball"
-                src="./assets/pokeball.png"
+                src="./src/assets/test.png"
               />
             </DashBoardItem>
           );
